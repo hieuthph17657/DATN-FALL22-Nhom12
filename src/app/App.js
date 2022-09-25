@@ -1,9 +1,13 @@
 import '../styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Sidebar from './layouts/Sidebar';
+import { Router } from 'react-router-dom';
 
 function App() {
   return (
-    <h1 className='text-danger'>Front-end Kinglap</h1>
+    <>
+      <Sidebar />
+    </>
   );
 }
 
