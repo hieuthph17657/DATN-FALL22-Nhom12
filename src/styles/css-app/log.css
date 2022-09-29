@@ -1,0 +1,117 @@
+.log {
+    width: 50rem;
+    height: 60%;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    color: rgb(46, 46, 46);
+}
+
+.log-content {
+    display: flex;
+    height: 100%;
+    border-radius: 15px;
+    -moz-box-shadow: 0px 10px 10px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 0px 10px 10px rgba(68, 68, 68, 0.6);
+    box-shadow: 0px 10px 10px rgba(68, 68, 68, 0.6);
+
+}
+
+.box {
+    width: 50%;
+    height: 100%;
+}
+
+.box-form {
+    padding-top: 5%;
+}
+
+
+
+.lgo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(116, 116, 116);
+    line-height: 46px;
+    margin-left: 2%;
+    padding-left: 1%;
+    border-radius: 50%;
+}
+
+.form {
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 70%;
+}
+
+.btn-signin {
+    width: 50%;
+    height: 50px;
+    background-color: #fe492a;
+    color: #fff;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 50px;
+    position: relative;
+    -moz-box-shadow: 0px 5px 5px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 0px 5px 5px rgba(68, 68, 68, 0.6);
+    box-shadow: 0px 5px 5px rgba(68, 68, 68, 0.6);
+    transition: all 0.3s ease-in;
+}
+
+.btn-signin:hover {
+    font-weight: bold;
+    background-color: rgb(249, 229, 229);
+    color: rgb(255, 27, 27);
+    transition: all 0.3s ease-in;
+}
+
+.ip {
+    /* padding-left: 50px; */
+    -moz-box-shadow: 0px 5px 5px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 0px 5px 5px rgba(68, 68, 68, 0.6);
+    box-shadow: 0px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+.font-btn {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lobster', cursive;
+}
+
+.forgot-link {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+}
+
+.forgot-link:hover {
+    color: rgb(255, 148, 124);
+}
+
+.logo-content {
+    color: rgb(79, 79, 79);
+}
+
+
+/* css box text */
+
+.box-text {
+    background-color: #fe492a;
+    border-radius: 0 15px 15px 0;
+    color: rgb(246, 246, 246);
+    padding-top: 20%;
+}
+
+.btn-signup {
+    color: #fff;
+    border: #fff solid 1px;
+    border-radius: 30px;
+    width: 40%;
+    transition: all 0.2s ease-in;
+}
+
+.btn-signup:hover {
+    color: #fe492a !important;
+    background-color: #fff !important;
+    transition: all 0.2s ease-in;
+    border: 1px solid rgb(118, 118, 118) !important;
+}
