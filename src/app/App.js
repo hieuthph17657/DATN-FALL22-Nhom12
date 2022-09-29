@@ -1,7 +1,8 @@
 import '../styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { BrowserRouter, Switch, Route} from 'react-router-dom'
-import home from '../pages/home';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Home from '../pages/home';
+import Cart from '../pages/cart';
 import Menu from '../components/Menu';
 import Navbar from '../components/Navbar';
 import NewsLetter from '../components/NewsLetter';
@@ -15,7 +16,12 @@ function App() {
         <Menu />
         <Navbar />
         <Switch>
-          <Route path="/" component={home} /> 
+          <Route path="/cart">
+            <Cart />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
         </Switch>
         <NewsLetter />
         <Footer />
