@@ -1,26 +1,20 @@
 import '../styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { BrowserRouter, Switch, Route} from 'react-router-dom'
-import home from '../pages/home';
-import Menu from '../components/Menu';
-import Navbar from '../components/Navbar';
-import NewsLetter from '../components/NewsLetter';
-import Footer from '../components/Footer';
-
+// import Sidebar from './layouts/Sidebar';
+import Sidebar from './layout1/Sidebar';
+import { Route, Routes } from "react-router-dom";
+import Content from './layout1/Content';
+import User from './layout1/User';
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Menu />
-        <Navbar />
-        <Switch>
-          <Route path="/" component={home} /> 
-        </Switch>
-        <NewsLetter />
-        <Footer />
-      </BrowserRouter>
-    </div>
+    <>
+      <Sidebar />
+      <Routes>
+        <Route path="/" element={<Content />} />
+        <Route path="/nhanvien/nhanvien1" element={<User />} />
+      </Routes>
+    </>
   );
 }
 
