@@ -1,0 +1,170 @@
+/*----------------------------*\
+	Breadcrumb
+\*----------------------------*/
+
+#breadcrumb {
+    padding: 20px 0px;
+    background: #FBFBFC;
+    border-bottom: 1px solid #E4E7ED;
+}
+
+#breadcrumb .breadcrumb-header {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+#breadcrumb .breadcrumb-tree {
+    display: inline-block;
+}
+
+#breadcrumb .breadcrumb-tree li {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#breadcrumb .breadcrumb-tree li+li {
+    margin-left: 10px;
+}
+
+#breadcrumb .breadcrumb-tree li+li:before {
+    content: '/';
+    display: inline-block;
+    color: #8D99AE;
+    margin-right: 10px;
+}
+
+#breadcrumb .breadcrumb-tree li a {
+    color: #8D99AE;
+}
+
+#breadcrumb .breadcrumb-tree li a:hover {
+    color: #D10024;
+}
+
+.a {
+    padding-left: 4%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.order-details,
+.order-details::before {
+    border: none;
+}
+
+.ckout {
+    border: 2px solid gray;
+    margin: 2.5% 5%;
+    border-radius: 10px;
+}
+
+.ckout>.section:hover {
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+
+.form.info {
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin: 25px 30px;
+}
+
+.form-group .input {
+    border-radius: 10px;
+    border: 1px solid rgb(198, 196, 196);
+    width: 80%;
+    float: right;
+    padding: 0px 20px;
+}
+
+input[type="radio"] {
+    margin: 10px 10px 10px 50px;
+}
+
+input[type="radio"]>span {
+    padding-right: 20%;
+}
+
+.order-summary {
+     border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 15%;
+}
+
+.ord-pr {
+    display: flex;
+    margin: 15px;
+}
+
+.btn.km {
+    width: 120px;
+    height: 32px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.btn.km.up {
+    background: #8D99AE;
+    margin-left: 50%;
+}
+
+.form-group1 {
+    margin: 0px 15px 15px 15px;
+    display: flex;
+}
+
+.input1 {
+    border-radius: 20px;
+    border: 1px solid rgb(198, 196, 196);
+    padding: 0px 20px;
+}
+
+.btn.km.check {
+    background: red ;
+    margin-left: 18.5%;
+}
+
+.order-products {
+    margin: 0px 15px 15px 15px;
+}
+
+.input-radio>input[type="radio"] {
+    margin: 10px 10px 10px 20px;
+}
+
+.payment-method {
+     border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.pay-mtd {
+    margin: 15px;
+}
+
+.bt-submit>a {
+    margin-top: 20px;
+}
+
+.btn.sub {
+    border-radius: 30px;
+    width: 45%;
+    padding: 12px 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.primary-btn.order-submit:hover {
+    background: #FBFBFC;
+    color: #D10024;
+    border: 2px solid red;
+}

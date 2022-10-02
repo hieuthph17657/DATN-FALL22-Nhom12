@@ -6,6 +6,7 @@ import Menu from '../components/Menu';
 import Navbar from '../components/Navbar';
 import NewsLetter from '../components/NewsLetter';
 import Footer from '../components/Footer';
+import checkout from '../pages/checkout';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Menu />
         <Navbar />
         <Switch>
+          <Route path="/checkout" component={checkout} />
           <Route path="/" component={home} /> 
         </Switch>
         <NewsLetter />
